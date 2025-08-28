@@ -5,7 +5,7 @@ name: "hello world worlflow"
 on:
   push:
     branches:
-      -master
+      -main
       -production
 jobs:
   hello_world:
