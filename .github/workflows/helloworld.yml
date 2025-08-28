@@ -5,8 +5,8 @@ name: "hello world worlflow"
 on:
   push:
     branches:
-      -main
-      -production
+      - main
+      - production
 jobs:
   hello_world:
     runs-on: ubuntu-latest
