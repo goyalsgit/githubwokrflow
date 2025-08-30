@@ -8,7 +8,9 @@ on:
     pull_request: #event whenever the pull request is made on the repository
             branches:
                 - main
-    workflow_dispatch:
+            types:
+                - closed
+    workflow_dispatch: #manually trigger
     
         
 
