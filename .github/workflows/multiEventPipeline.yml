@@ -8,6 +8,8 @@ on:
     pull_request: #event whenever the pull request is made on the repository
             branches:
                 - main
+    workflow_dispatch:
+        
 
 jobs:
     on-push:
